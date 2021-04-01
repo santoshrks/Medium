@@ -1,0 +1,343 @@
+*{
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	list-style: none;
+	color: white;
+}
+body{
+	font-size: 10px;
+}
+.container{
+	width: 85%;
+	margin: 0 auto;
+}
+
+.navbar{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	height: 60px;
+	background: white;
+}
+.logo{
+	margin-top: 15px;
+}
+.links{
+	line-height: 3.75rem;/*60px*/
+}
+.links li {
+	display: inline-block;
+	margin-right: 2em;
+
+}
+.links li a{
+	color: black;
+	font-size: 1rem;
+	font-weight: 400px;
+
+}
+.nav{
+	width: 10em;
+	height: 2.5rem;
+	line-height: 20px;
+	font-size: 1rem;
+	text-align: center;
+	padding: 8px 16px;
+	border-color: rgba(3, 168, 124, 1);
+	background: rgba(3, 168, 124, 1);
+	border-radius: 3px;
+	font-weight: 400;
+}
+a{
+	font-family: medium-content-sans-serif-font, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+h1{
+	font-size: 4.4rem;
+	line-height: 4.5rem;
+	font-weight: 500;
+	font-family: medium-marketing-display-font, Georgia, Cambria, "Times New Roman", Times, serif;
+	color: rgba(41, 41, 41, 1);
+	text-align: center;
+	padding: 1em 1em;
+	padding-bottom: 0.5em;
+}
+h2{
+	font-size: 1.2rem;
+	line-height: 1rem;
+	font-weight: 600;
+	font-family: medium-content-sans-serif-font, "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif;
+	text-align: center;
+	color: black;
+}
+.button{
+	display: flex;
+	max-height: 260px;
+	overflow: hidden;
+	
+	justify-content: center;
+	text-align: center;
+	font-weight: 400;
+	margin: 30px;
+}
+.control {
+  display: inline-flex;
+  position: relative;
+  margin: 5px;
+  cursor: pointer;
+  border-radius: 99em;
+}
+
+.control input {
+  position: absolute;
+  opacity: 0;
+  z-index: -1;
+}
+
+.control svg {
+  margin-right: 6px;
+  border-radius: 50%;
+  box-shadow: 3px 3px 16px rgba(0, 0, 0, .2)
+}
+
+.control__content {
+  display: inline-flex;
+  align-items: center;
+  padding: 6px 12px;
+  font-size: 20px;
+  line-height: 32px;
+  color: rgba(0, 0, 0, .55);
+  background-color: rgba(0, 0, 0, .05);
+  border-radius: 99em;
+}
+
+.control:hover .control__content {
+  background-color: rgba(0, 0, 0, .1);
+}
+
+.control input:focus ~ .control__content {
+  box-shadow: 0 0 0 .25rem rgba(12, 242, 143, .2);
+  background-color: rgba(0, 0, 0, .1);
+}
+
+.control input:checked ~ .control__content {
+  background-color: rgba(12, 242, 143, .2);
+}
+
+.wrapper{
+	text-align: center;
+}
+.button1{
+	width: 340px;
+	height: 62px;
+	line-height: 40px;
+	font-size: 24px;
+	text-align: center;
+	padding: 8px 16px;
+	border-color: rgba(3, 168, 124, 1);
+	color: rgba(255, 255, 255, 1);
+	background: rgba(3, 168, 124, 1);
+	border-radius: 4px;
+	font-weight: 400;
+}
+.already{
+	margin-top: 15px;
+	font-size: 20px;
+	color: black;
+}
+.sign{
+	margin-top: 10px;
+	font-size: 20px;
+	color: black;
+}
+h3{
+	font-size: 4rem;
+	line-height: 80px;
+	font-weight: 500;
+	font-family: medium-marketing-display-font, Georgia, Cambria, "Times New Roman", Times, serif;
+	color: rgba(41, 41, 41, 1);
+	text-align: left;
+	padding: 20px 100px;
+	margin-left: -100px;
+}
+#privacy{
+	display: block;
+	line-height: 32px;
+	font-size: 1.4rem;
+	color: rgba(117, 117, 117, 1);
+	font-weight: 300;
+	font-family: medium-content-sans-serif-font, "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif;
+	text-align: left;
+
+}
+h4{
+	font-size: 1.4rem;
+	line-height: 28px;
+	font-weight: 600;
+	margin-bottom: 50px;
+	color: black;
+	font-family: medium-content-sans-serif-font, "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif;
+	text-align: left;
+	display: block;
+}
+
+.wrapper1{
+	display: block;
+	font-weight: 400;
+	font-family: medium-content-sans-serif-font, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+#text{
+	/*display: block;*/
+	line-height: 1.2em;
+	font-size: 1.4rem;
+	font-weight: 600;
+	color:rgba(117, 117, 117, 1);
+	font-family: medium-content-sans-serif-font, "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif;
+	text-align: left;
+}
+.columns{
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-end;
+	margin-bottom: 20px;
+}
+.col-1{
+	width: 47%;
+}
+.col-2{
+	width: 47%;
+	margin-left: 150px;
+}
+#one{
+	margin-top: 50px;
+	margin-bottom: 20px;
+	line-height: 28px;
+	font-size: 1.4rem;
+	font-weight: 600;
+	color: black;
+	font-family:medium-content-sans-serif-font, "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif;
+	text-align: center;
+}
+#read{
+	line-height: 32px;
+	font-size: 1.4rem;
+	color:rgba(117, 117, 117, 1) ;
+	font-weight: 300;
+	font-family:medium-content-sans-serif-font, "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif;
+	text-align:center;
+	margin-bottom: 60px;
+}
+#expand{
+	margin: 54px;
+	line-height: 80px;
+	font-size: 4.3rem;
+	display: block;
+	color: black;
+	font-weight: 500;
+	text-align: center;
+	font-family: medium-marketing-display-font, Georgia, Cambria, "Times New Roman", Times, serif;
+}
+#btn{
+	margin-bottom: 54px;
+}
+.foot{
+	width: 92%;
+	margin-top: 80px;
+	padding: 50px;
+	background-color: black;
+	display: flex;
+}
+.foot a{
+	margin: 2px;
+	padding: 1px;
+	font-size: 1.3rem;
+}
+.foot .flinks a{
+	line-height: 1.2em;
+	padding: 5px;
+	display: inline-block;
+}
+span{
+	font-size: 1.2rem;
+	color: grey;
+}
+.foot .left{
+	width: 80%;
+}
+
+.foot .right{
+	line-height: 3em;
+	margin-bottom: 1em;
+}
+hr{
+	width:600px;
+	margin: auto;"
+}
+
+
+
+
+@media only screen and (max-width: 600px) {
+	.container{
+		width: 90%;
+	}
+  .links li{
+  	display: none;
+  }
+ .columns{
+ 	display: flex;
+	flex-direction: column;
+}
+.col-1 ,.col-2{
+	width: 100%;
+	margin-bottom: 2em;
+}
+.col-1{
+	order: 2;
+}
+.col-2{
+	order: 1;
+}
+.foot{
+	flex-direction: column;
+}
+h1{
+	font-size: 2.2rem;
+	line-height: 2.5rem;
+}
+h2{
+	font-size: 1.2rem;
+	line-height: 1rem;
+	}
+h3{
+	font-size: 2.5rem;
+}
+h4{
+	margin-top: 2rem;
+}
+.button1{
+	width: 100%;
+	}
+#expand{
+	font-size: 2rem;
+	line-height: 30px;
+}
+
+hr{
+	width: 320px;
+}
+.foot{
+	width: 100%;
+	padding: 0px;
+}
+.foot .left img{
+	width: 18%;
+}
+.foot .left{
+	margin-left: 20px;
+}
+.foot .right{
+	margin-left: 20px;
+}
+}
